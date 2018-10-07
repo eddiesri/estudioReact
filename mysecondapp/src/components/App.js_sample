@@ -1,0 +1,69 @@
+
+
+import React, { Component } from 'react';
+import './App.css';
+// import MyComponent from './components/MyComponent';
+
+class App extends Component {
+constructor(props) {
+  super(props);
+/*     this.onSubmit = this.onSubmit.bind(this);
+ */   
+
+    this.state = {
+      tittle : 'App tittle'
+    }
+/* 
+    this.onClick = this.onClick.bind(this); */
+}
+/* 
+  onClick() {
+    console.log()
+    this.setState({
+      title:'new App tittle'
+    });
+  } */
+/*   onSubmit(event){
+    event.preventDefault();
+    alert(this.prueba.value)
+  } */
+  render() {
+/*  const title = this.state.tittle;
+    const list  = [
+      'item 1',
+      'item 2',
+      'item 3'
+    ] */
+    return (
+      <div className="App">
+
+{
+  /*        part 1
+    -------------------------------------------------------------------
+         <h1>{title}</h1>
+          {
+            list.map(item => {
+            return(
+              <div key={item} onClick={this.onClick}>{item}</div>
+            )
+            })
+          }
+          <form onSubmit={this.onSubmit} >
+          <input type="text" ref={prueba => this.prueba = prueba}/> 
+          <button type="submit"  >Submit</button> 
+          </form>
+        --------------------------------------------------------------
+          part 2
+          <h1 > {this.state.tittle} </h1> 
+          <div onClick={this.onClick}>Click Here!</div>
+          <MyComponent title="this is a modified title" name ="this is a name"/>
+
+        */
+}
+
+    </div>
+    );
+  }
+}
+
+export default App;
